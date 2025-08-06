@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-800);
+    padding: 1.25rem 0; /*1 = 16 então 0.25 = 4px*/
+}
+
+.header .img{
+    height: 2rem; /* 32px */
+}
+
+.header strong{
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+}

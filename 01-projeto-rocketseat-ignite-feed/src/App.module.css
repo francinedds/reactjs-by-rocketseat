@@ -1,0 +1,26 @@
+.wrapper{
+   max-width: 70rem; 
+   margin: 2rem auto;
+   padding: 0 1rem;
+
+   display: grid;
+   grid-template-columns: 256px 1fr; /* duas colunas */
+   gap: 2rem;
+   align-items: flex-start;
+}
+
+/* Responsividae */
+
+@media (max-width: 768px) {
+   html{
+      font-size: 87.5%; /* como estamos usando REM, o tamanho da font padrão seria 16 (desktop), se alterarmos para 14 (mobile), muda automaticamente */ 
+                        /* Porém, temos que usar % ao invés de px, então calculamos: */
+                        /* 16 -> 100%
+                           14 -> x 
+                           14*100/16 = 87.5 */               
+   }
+
+   .wrapper{
+      grid-template-columns: 1fr; /* uma coluna */
+   }
+}

@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createAt": "2025-03-25T23:25:12.037Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 80,
+      "createAt": "2025-03-25T23:15:12.037Z"
+    },
+    {
+      "description": "Desenvolvimento App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createAt": "2025-04-03T01:15:57.177Z",
+      "id": 3
+    },
+    {
+      "description": "Celular",
+      "price": 1500,
+      "category": "Eletrônicos",
+      "type": "outcome",
+      "createAt": "2025-04-03T01:38:03.488Z",
+      "id": 4
+    }
+  ]
+}
