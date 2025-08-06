@@ -1,4 +1,4 @@
-# ReactJS by Rocketseat React
+# ReactJS by Rocketseat
 
 Este repositório foi criado para armazenar os exercícios e códigos práticos desenvolvidos durante o curso de **ReactJS** da [Rocketseat](https://rocketseat.com.br/), seguindo a trilha Ignite.
 
